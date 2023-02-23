@@ -1,7 +1,10 @@
 .carruselPortada .carousel-inner{
         max-height: 15rem ;
+        width: 100%;
 }
-.barraDeNavegacion .navbar .container-fluid{background-color: floralwhite;}
+.barraDeNavegacion .navbar .container-fluid{
+        background-color: floralwhite;
+}
 
 .cardSale{
 display: flex;
@@ -40,6 +43,48 @@ height: 494px;
         justify-content: center;
         margin: 0px 0px 00px;
 }
+/* =================================================================================================================
+========================================     PAG3   ================================================================
+====================================================================================================================*/
+
+
+.cardSalepag3{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 150px;
+        margin-right: 150px;
+}
+.cardSalepag3 .card{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 20rem;
+}
+
+.cardSalepag3 .card{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+}
+.cardSalepag3 .card .card-body h6{
+        display: flex;
+        justify-content: center;
+}
+.cardSalepag3 .card .card-body h5{
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px;
+}
+
+.cardSalepag3 .card .card-body p{
+        display: flex;
+        justify-content: center;
+        margin: 0px 0px 0px;
+}
+
 
 .pSale{
         display: flex;
