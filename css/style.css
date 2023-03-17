@@ -1,18 +1,54 @@
-*, *:before, *:after {
-  box-sizing: border-box; }
+.p-portada {
+  width: 100%;
+  display: flex;
+  background: white;
+  background: linear-gradient(90deg, white 0%, white 26%, #e79c33 96%); }
+  .p-portada img {
+    width: 20rem;
+    display: flex; }
 
-html {
-  font-size: 100%; }
+.el-mejor-carrusel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
 
-body {
-  font-family: acumin-pro, system-ui, sans-serif;
-  margin: 0;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  font-size: 14px;
-  background-color: #f4f4f4;
-  align-items: start;
-  min-height: 100vh; }
+.slider-container {
+  display: flex;
+  width: 18rem;
+  margin: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory; }
+
+.slider-container .card {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center; }
+
+.card {
+  width: 18rem; }
+
+.card-sale {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 50%; }
+
+.p-sale {
+  justify-content: center;
+  display: flex; }
+
+.precentacion-productos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .precentacion-productos a {
+    display: flex;
+    margin: 20px; }
+    .precentacion-productos a img {
+      width: 20rem;
+      display: flex; }
 
 .nav-item .nav-link.active {
   color: rgba(60, 211, 118, 0.979); }
