@@ -7,6 +7,29 @@
     width: 20rem;
     display: flex; }
 
+.main-ayuda {
+  display: flex;
+  width: 100%;
+  justify-content: center; }
+  .main-ayuda div {
+    display: flex;
+    flex-direction: column;
+    width: 700px; }
+    .main-ayuda div h1 {
+      justify-content: center;
+      display: flex;
+      color: rgba(60, 211, 118, 0.979); }
+    .main-ayuda div p {
+      width: 25rem;
+      margin-left: 10px; }
+
+.card-sale-pag-3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .card-sale-pag-3 .card {
+    margin: 20px; }
+
 .el-mejor-carrusel {
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +49,10 @@
   scroll-snap-align: center; }
 
 .card {
-  width: 18rem; }
+  width: 18rem;
+  border: none; }
+  .card .card-body {
+    text-align: center; }
 
 .card-sale {
   display: flex;
