@@ -7,6 +7,28 @@
     width: 20rem;
     display: flex; }
 
+.nosotros {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap; }
+
+.bloque {
+  display: flex; }
+  .bloque section {
+    width: 40rem; }
+    .bloque section h1 {
+      color: rgba(60, 211, 118, 0.979);
+      display: flex;
+      justify-content: center;
+      margin-top: 10px; }
+    .bloque section p {
+      margin-left: 10px;
+      margin-right: 10px; }
+  .bloque img {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 20px; }
+
 .main-ayuda {
   display: flex;
   width: 100%;
@@ -23,12 +45,14 @@
       width: 25rem;
       margin-left: 10px; }
 
-.card-sale-pag-3 {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; }
-  .card-sale-pag-3 .card {
-    margin: 20px; }
+.pag-3 {
+  margin-top: 20px; }
+  .pag-3 .card-sale-pag-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .pag-3 .card-sale-pag-3 .card {
+      margin: 20px; }
 
 .el-mejor-carrusel {
   display: flex;
@@ -51,6 +75,8 @@
 .card {
   width: 18rem;
   border: none; }
+  .card img {
+    border-radius: 5px; }
   .card .card-body {
     text-align: center; }
 
