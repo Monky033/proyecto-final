@@ -17,6 +17,47 @@
         display: flex;
     }
 }
+.ttalles{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    .talles{
+        margin-right:20px;
+        .medidas-propias{
+            .talles-tex{
+                width:320px;
+                h1{
+                    display: flex;
+                    justify-content: center;
+                    color: rgba(60, 211, 118, 0.979);
+                }
+                p{
+                    display: flex;
+                }
+            }
+            .inst{
+                width: 20rem;
+            }
+        }
+    }
+    .ejemplo-talles{
+        width: 320px;
+        height: 729.5px;
+        box-sizing: border-box;
+        h1{
+            margin-bottom: 20px ;
+            display: flex;
+            justify-content: center;
+            color: rgba(60, 211, 118, 0.979);
+        }
+    }
+}
+
+
+
+
+
 .nosotros{
     justify-content: center;
     display: flex;

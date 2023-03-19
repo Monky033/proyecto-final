@@ -12,6 +12,33 @@
     width: 20rem;
     display: flex; }
 
+.ttalles {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px; }
+  .ttalles .talles {
+    margin-right: 20px; }
+    .ttalles .talles .medidas-propias .talles-tex {
+      width: 320px; }
+      .ttalles .talles .medidas-propias .talles-tex h1 {
+        display: flex;
+        justify-content: center;
+        color: rgba(60, 211, 118, 0.979); }
+      .ttalles .talles .medidas-propias .talles-tex p {
+        display: flex; }
+    .ttalles .talles .medidas-propias .inst {
+      width: 20rem; }
+  .ttalles .ejemplo-talles {
+    width: 320px;
+    height: 729.5px;
+    box-sizing: border-box; }
+    .ttalles .ejemplo-talles h1 {
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      color: rgba(60, 211, 118, 0.979); }
+
 .nosotros {
   justify-content: center;
   display: flex;
