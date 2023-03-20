@@ -1,0 +1,48 @@
+.p-sale{
+    justify-content: center;
+    display: flex;
+}
+
+.el-mejor-carrusel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .slider-container {
+        display: flex;
+        width: 18rem;
+        margin: 20px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        
+    }
+}
+
+.slider-container .card {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+.card-sale{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+
+
+.precentacion-productos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    a{
+        display: flex;
+        margin: 20px;
+        img{
+            width: 20rem;
+            display: flex;
+        }
+    }
+}

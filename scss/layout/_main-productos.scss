@@ -1,0 +1,11 @@
+.pag-3{
+    margin-top: 20px;
+    .card-sale-pag-3{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .card{
+            margin: 20px;
+        }
+    }
+}

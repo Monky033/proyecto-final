@@ -1,0 +1,10 @@
+.p-portada{
+    width: 100%;
+    display: flex;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 26%, rgba(231,156,51,1) 96%);
+    img{
+        width:20rem;
+        display: flex;
+    }
+}

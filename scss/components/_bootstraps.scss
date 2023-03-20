@@ -1,0 +1,20 @@
+.nav-item{
+    .nav-link.active{
+        color: rgba(60, 211, 118, 0.979) ;
+    }
+    .nav-link{
+        color: rgba(60, 211, 118, 0.979) ;
+    }
+}
+
+.card{
+    width: 18rem;
+    border: none;
+        img{
+            border-radius: 5px;
+        }
+        .card-body{
+            text-align: center;
+            
+        }
+}
