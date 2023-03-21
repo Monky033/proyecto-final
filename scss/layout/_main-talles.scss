@@ -1,7 +1,5 @@
 .ttalles{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+    @include flex(flex,center,none,wrap)
     margin-top: 25px;
     .talles{
         margin-right:20px;
@@ -9,9 +7,8 @@
             .talles-tex{
                 width:320px;
                 h1{
-                    display: flex;
-                    justify-content: center;
-                    color: rgba(60, 211, 118, 0.979);
+                    @include flex-simple(flex,center)
+                    color: $color-letras;
                 }
                 p{
                     display: flex;
@@ -27,10 +24,9 @@
         height: 729.5px;
         box-sizing: border-box;
         h1{
+            @include flex-simple(flex,center)
             margin-bottom: 20px ;
-            display: flex;
-            justify-content: center;
-            color: rgba(60, 211, 118, 0.979);
+            color: $color-letras;
         }
     }
 }

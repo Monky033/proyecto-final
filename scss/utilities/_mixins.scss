@@ -1,0 +1,12 @@
+@mixin flex-simple($dis, $jus,){
+    display: $dis;
+    justify-content: $jus;
+}
+
+
+@mixin flex($dis, $jus, $alig, $wrap){
+    display: $dis;
+    justify-content: $jus;
+    align-items: $alig;
+    flex-wrap: $wrap;
+}

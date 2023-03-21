@@ -1,12 +1,10 @@
 .p-sale{
-    justify-content: center;
-    display: flex;
+    @include flex(flex,center,none,none)
 }
 
 .el-mejor-carrusel{
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    @extend:.p-sale;
     .slider-container {
         display: flex;
         width: 18rem;
@@ -24,8 +22,7 @@
     scroll-snap-align: center;
 }
 .card-sale{
-    display: flex;
-    flex-wrap: wrap;
+    @include flex(flex,none,none,wrap)
     box-sizing: border-box;
     width: 50%;
 }
@@ -34,9 +31,8 @@
 
 .precentacion-productos{
     width: 100%;
-    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    @extend:.p-sale;
     a{
         display: flex;
         margin: 20px;

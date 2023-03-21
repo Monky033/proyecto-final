@@ -1,15 +1,12 @@
 .nosotros{
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+    @include flex(flex,center,none,wrap)
     .bloque{
         display: flex;
         section{
             width: 40rem;
             h1{
-                color: rgba(60, 211, 118, 0.979);
-                display: flex;
-                justify-content: center;
+                color: $color-letras;
+                @include flex-simple(flex,center)
                 margin-top: 10px;
             }
             p{

@@ -1,15 +1,13 @@
 .main-ayuda{
-    display: flex;
     width: 100%;
-    justify-content: center;
+    @include flex-simple(flex,center)
     div{
         display: flex;
         flex-direction: column;
         width: 700px;
         h1{
-            justify-content: center;
-            display: flex;
-            color: rgba(60, 211, 118, 0.979)
+            @include flex-simple(flex,center)
+            color: $color-letras;
             }
         p{
             width: 25rem;

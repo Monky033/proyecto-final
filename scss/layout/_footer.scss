@@ -13,7 +13,7 @@
             font-weight: 400;
             text-transform: lowercase;
             font-size: 1.5rem;
-            color: rgba(60, 211, 118, 0.979) ;
+            color: $color-letras ;
         }
         h2 {
             margin-top: 1.3em;
@@ -27,7 +27,7 @@
         .nav-title {
             font-weight: 400;
             font-size: 15px;
-            color:  rgba(60, 211, 118, 0.979) ;
+            color:  $color-letras ;
         }
         .nav-ul{
             a {
