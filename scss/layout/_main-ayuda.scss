@@ -1,12 +1,12 @@
 .main-ayuda{
     width: 100%;
-    @include flex-simple(flex,center)
+    @include flex-simple(flex,center);
     div{
         display: flex;
         flex-direction: column;
-        width: 700px;
+        width: 100%;
         h1{
-            @include flex-simple(flex,center)
+            @include flex-simple(flex,none);
             color: $color-letras;
             }
         p{

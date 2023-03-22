@@ -1,0 +1,19 @@
+@media (max-width:420px){
+    .main-ayuda{
+        justify-content: flex-start;
+        div{
+            width: 100%;
+            p{
+                display: flex;
+                width: 90%;
+                }
+    }
+    }
+    .nosotros{
+        .bloque{
+            img{
+                width: 18rem;
+            }
+        }
+    }
+}

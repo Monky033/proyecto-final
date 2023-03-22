@@ -11,27 +11,9 @@
 @import "./layout/main-nosotros";
 @import "./layout/main-productos";
 @import "./layout/main-ayuda";
-
-@media screen and (min-width: 24.375em) {
-    .fi .firma {
-        margin-left: auto;
-    }
-}
-
-@media screen and (min-width: 40.375em) {
-    .footer-nav > * {
-        flex: 1;
-    }
-    
-    .fnav-item--extra {
-        flex-grow: 2;
-    }
-    
-    .footer-addr {
-        flex: 1 0px;
-    }
-    
-    .footer-nav {
-        flex: 2 0px;
-    }
-}
+///--------mediaquerry--------///
+@import "./layout/media-1440";
+@import "./layout/media-1120";
+@import "./layout/media-768";
+@import "./layout/media-420";
+@import "./layout/media-360";

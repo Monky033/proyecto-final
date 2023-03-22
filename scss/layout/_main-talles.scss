@@ -1,17 +1,18 @@
 .ttalles{
-    @include flex(flex,center,none,wrap)
     margin-top: 25px;
+    @include flex(flex,center,none,wrap);
     .talles{
         margin-right:20px;
         .medidas-propias{
             .talles-tex{
                 width:320px;
                 h1{
-                    @include flex-simple(flex,center)
+                    @include flex-simple(flex,center);
                     color: $color-letras;
                 }
                 p{
                     display: flex;
+                    margin-bottom: 40px;
                 }
             }
             .inst{
@@ -24,7 +25,7 @@
         height: 729.5px;
         box-sizing: border-box;
         h1{
-            @include flex-simple(flex,center)
+            @include flex-simple(flex,center);
             margin-bottom: 20px ;
             color: $color-letras;
         }

@@ -1,0 +1,80 @@
+@media (max-width:768px){
+    .p-portada{
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 3%, rgba(255,255,255,1) 30%, rgba(60,211,118,1) 94%);
+    }
+
+    .container-fluid{
+        background: none;
+        background-color: $color-letras ;
+    }
+
+    .nav-item{
+        .nav-link.active{
+            color: white ;
+        }
+        .nav-link{
+            color: white ;
+        }
+    }
+
+    .ssale{
+        margin-top: 20px;
+        background-color: $color-letras ;
+        .p-sale{
+            color: white;
+        }
+    }
+    .precentacion-productos{
+        a{
+            img{
+            height: 400px;
+            }
+        }
+        }
+        .main-ayuda{
+            div{
+                width: 400px;
+        }
+    }
+    .nosotros{
+        .bloque{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            section{
+                h1{
+                    margin: 20px;
+                }
+                p{
+                    display: flex;
+                    width: 90%;
+                    margin-left: 20px;
+                    margin-right: 20px;
+            }
+            }
+            img{
+                display: flex;
+                width: 23rem;
+            }
+        }
+        .bloque-medio{
+            flex-direction: column-reverse;
+        }
+    }
+    .pie-de-pagina{
+        .footer-addr {
+            .footer-logo {
+                color: $color-letras ;
+            }
+            .footer-btn {
+                background-color: rgba(60, 211, 118, 0.658);
+            }
+        }
+    .footer-nav {
+        .nav-title {
+            color:  $color-letras ;
+            }
+    }
+}
+}

@@ -1,12 +1,12 @@
 .nosotros{
-    @include flex(flex,center,none,wrap)
+    @include flex(flex,center,none,wrap);
     .bloque{
         display: flex;
         section{
-            width: 40rem;
+            width: 100%;
             h1{
                 color: $color-letras;
-                @include flex-simple(flex,center)
+                @include flex-simple(flex,center);
                 margin-top: 10px;
             }
             p{
@@ -19,5 +19,8 @@
             height: 30rem;
             border-radius: 20px;
         }
+    }
+    .bloque-medio{
+        @extend .bloque;
     }
 }

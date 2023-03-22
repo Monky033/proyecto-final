@@ -1,0 +1,46 @@
+@media (max-width:1440px){
+    .ssale{
+        margin-top: 20px;
+        background-color: $color-letras-sec ;
+        .p-sale{
+            color: white;
+        }
+    }
+    
+    .container-fluid{
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 60%, rgba(231,156,51,1) 96%); ;
+        }
+    
+        .nav-item{
+            .nav-link.active{
+                color: $color-letras-sec ;
+            }
+            .nav-link{
+                color: $color-letras-sec ;
+            }
+        }
+    
+    .nosotros{
+        .bloque{
+            margin-bottom: 20px;
+        }
+    }
+    .pie-de-pagina{
+            .footer-addr {
+                .footer-logo {
+                    color: $color-letras-sec ;
+                }
+                .footer-btn {
+                    background-color: rgba(231, 156, 51, 0.603);
+                }
+            }
+        .footer-nav {
+            .nav-title {
+                color:  $color-letras-sec ;
+                }
+        }
+    }
+
+}
+
