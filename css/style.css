@@ -134,6 +134,7 @@
     display: flex;
     margin: 20px; }
     .precentacion-productos a img {
+      display: flex;
       width: 20rem; }
 
 .p-portada {
@@ -303,7 +304,15 @@
         display: flex;
         width: 90%; }
   .nosotros .bloque img, .nosotros .bloque-medio img {
-    width: 18rem; } }
+    width: 18rem; }
+  .ttalles {
+    flex-flow: wrap-reverse; }
+    .ttalles .talles {
+      margin: 10px; }
+    .ttalles .ejemplo-talles {
+      margin: 10px; }
+      .ttalles .ejemplo-talles h1 {
+        margin-bottom: 30px; } }
 
 @media (max-width: 360px) {
   .precentacion-productos a img {
