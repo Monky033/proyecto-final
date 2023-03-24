@@ -27,22 +27,17 @@
     width: 50%;
 }
 
-
-
 .precentacion-productos{
     width: 100%;
     flex-wrap: wrap;
     @extend .p-sale;
-    .p-producto{
-        margin: 20px;
-        display: flex;
         a{
-            @extend .p-producto;
+            margin: 20px;
+            display: flex;
             img{
                 display: flex;
                 width: 20rem;
+                height: 400;
             }
         }
-    }
-    
 }

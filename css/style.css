@@ -77,27 +77,6 @@
       display: flex;
       align-items: center; }
 
-.pie-de-pagina > * {
-  flex: 1 100%; }
-
-.footer-nav > * {
-  flex: 1 50%;
-  margin-right: 1.25em; }
-
-@media screen and (min-width: 24.375em) {
-  .fi .firma {
-    margin-left: auto; } }
-
-@media screen and (min-width: 40.375em) {
-  .footer-nav > * {
-    flex: 1; }
-  .fnav-item--extra {
-    flex-grow: 2; }
-  .footer-addr {
-    flex: 1 0px; }
-  .footer-nav {
-    flex: 2 0px; } }
-
 .p-sale, .el-mejor-carrusel, .precentacion-productos {
   display: flex;
   justify-content: center;
@@ -130,12 +109,13 @@
 .precentacion-productos {
   width: 100%;
   flex-wrap: wrap; }
-  .precentacion-productos .p-producto, .precentacion-productos .p-producto a {
+  .precentacion-productos a {
     margin: 20px;
     display: flex; }
-    .precentacion-productos .p-producto a img {
+    .precentacion-productos a img {
       display: flex;
-      width: 20rem; }
+      width: 20rem;
+      height: 400; }
 
 .p-portada {
   width: 100%;
@@ -226,6 +206,72 @@
       width: 25rem;
       margin-left: 10px; }
 
+.precentacion-productos .anima-a {
+  position: relative;
+  overflow: hidden; }
+
+.precentacion-productos .anima-a::before {
+  content: "BIKERS";
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(51, 49, 49, 0.726);
+  transform: translate(100%); }
+
+.precentacion-productos .anima-a:hover::before {
+  transform: translate(0); }
+
+.precentacion-productos .anima-b {
+  position: relative;
+  overflow: hidden; }
+
+.precentacion-productos .anima-b::before {
+  content: "POLERAS";
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(51, 49, 49, 0.726);
+  transform: translate(100%); }
+
+.precentacion-productos .anima-b:hover::before {
+  transform: translate(0); }
+
+.precentacion-productos .anima-c {
+  position: relative;
+  overflow: hidden; }
+
+.precentacion-productos .anima-c::before {
+  content: "BUZOS";
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(51, 49, 49, 0.726);
+  transform: translate(100%); }
+
+.precentacion-productos .anima-c:hover::before {
+  transform: translate(0); }
+
 @media (max-width: 1440px) {
   .ssale {
     margin-top: 20px;
@@ -304,7 +350,6 @@
     .main-ayuda div {
       width: 100%; }
       .main-ayuda div p {
-        display: flex;
         width: 90%; }
   .nosotros .bloque img, .nosotros .bloque-medio img {
     width: 18rem; }
@@ -323,3 +368,24 @@
     height: 340px; }
   .precentacion-productos a img {
     height: 400px; } }
+
+.pie-de-pagina > * {
+  flex: 1 100%; }
+
+.footer-nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em; }
+
+@media screen and (min-width: 24.375em) {
+  .fi .firma {
+    margin-left: auto; } }
+
+@media screen and (min-width: 40.375em) {
+  .footer-nav > * {
+    flex: 1; }
+  .fnav-item--extra {
+    flex-grow: 2; }
+  .footer-addr {
+    flex: 1 0px; }
+  .footer-nav {
+    flex: 2 0px; } }

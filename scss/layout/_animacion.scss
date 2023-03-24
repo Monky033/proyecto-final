@@ -1,0 +1,76 @@
+.precentacion-productos{
+    .anima-a{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .anima-a::before{
+        content: "BIKERS";
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(51, 49, 49, 0.726);
+        transform: translate(100%);
+    }
+
+    .anima-a:hover::before{
+        transform: translate(0);
+    }
+    
+    .anima-b{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .anima-b::before{
+        content: "POLERAS";
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(51, 49, 49, 0.726);
+        transform: translate(100%);
+    }
+
+    .anima-b:hover::before{
+        transform: translate(0);
+    }
+
+    .anima-c{
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .anima-c::before{
+        content: "BUZOS";
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(51, 49, 49, 0.726);
+        transform: translate(100%);
+    }
+
+    .anima-c:hover::before{
+        transform: translate(0);
+    }
+}

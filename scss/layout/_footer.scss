@@ -58,36 +58,3 @@
         }
     }
 }
-
-.pie-de-pagina > * {
-    flex:  1 100%;
-}
-.footer-nav > * {
-    flex: 1 50%;
-    margin-right: 1.25em;
-}
-//lo ubique con ayuda de un video de you tube no me gustaba como me quedaba//
-
-@media screen and (min-width: 24.375em) {
-    .fi .firma {
-        margin-left: auto;
-    }
-}
-
-@media screen and (min-width: 40.375em) {
-    .footer-nav > * {
-        flex: 1;
-    }
-    
-    .fnav-item--extra {
-        flex-grow: 2;
-    }
-    
-    .footer-addr {
-        flex: 1 0px;
-    }
-    
-    .footer-nav {
-        flex: 2 0px;
-    }
-}
