@@ -130,10 +130,10 @@
 .precentacion-productos {
   width: 100%;
   flex-wrap: wrap; }
-  .precentacion-productos a {
-    display: flex;
-    margin: 20px; }
-    .precentacion-productos a img {
+  .precentacion-productos .p-producto, .precentacion-productos .p-producto a {
+    margin: 20px;
+    display: flex; }
+    .precentacion-productos .p-producto a img {
       display: flex;
       width: 20rem; }
 
@@ -206,6 +206,9 @@
     flex-wrap: wrap; }
     .pag-3 .card-sale-pag-3 .card {
       margin: 20px; }
+      .pag-3 .card-sale-pag-3 .card img {
+        width: 288px;
+        height: 360px; }
 
 .main-ayuda {
   width: 100%;

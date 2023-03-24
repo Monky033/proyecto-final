@@ -33,12 +33,16 @@
     width: 100%;
     flex-wrap: wrap;
     @extend .p-sale;
-    a{
-        display: flex;
+    .p-producto{
         margin: 20px;
-        img{
-            display: flex;
-            width: 20rem;
+        display: flex;
+        a{
+            @extend .p-producto;
+            img{
+                display: flex;
+                width: 20rem;
+            }
         }
     }
+    
 }
